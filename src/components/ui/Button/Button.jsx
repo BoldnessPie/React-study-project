@@ -1,3 +1,5 @@
-export default function Button({ value, className }) {
-  <button className={className}>{value}</button>;
+import "./Button.css";
+
+export default function Button({ className, value }) {
+  return <button className={`button ${className}`}>{value}</button>;
 }

@@ -1,0 +1,48 @@
+.button {
+  height: 48px;
+  padding: 0 3.5rem;
+
+  font-family: "Roboto";
+  font-weight: 500;
+
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+}
+
+.button_dissabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.button_primary {
+  background: var(--blue);
+  transition: background 250ms ease-in-out;
+  transition-behavior: allow-discrete;
+
+  &:hover {
+    background: var(--blue-dark);
+  }
+}
+
+.button_secondary {
+  background: var(--purple);
+  transition: background 250ms ease-in-out;
+  transition-behavior: allow-discrete;
+
+  &:hover {
+    background: var(--purple-dark);
+  }
+}
+
+.button_alternate {
+  color: var(--grey-4);
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  transition: border 250ms ease-in-out;
+
+  &:hover {
+    border: 1px solid var(--black);
+    transition-behavior: allow-discrete;
+  }
+}
