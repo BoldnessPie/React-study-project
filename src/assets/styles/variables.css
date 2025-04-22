@@ -17,4 +17,6 @@
 
   --primary: var(--blue);
   --secondary: var(--purple);
+
+  --border-rad: 8px;
 }

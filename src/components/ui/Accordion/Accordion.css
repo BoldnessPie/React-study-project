@@ -1,0 +1,68 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.accordion__item {
+  padding: 1.5rem 2rem;
+  border: 1px solid var(--grey-3);
+  border-radius: var(--border-rad);
+
+  overflow: hidden;
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.accordion__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--black);
+}
+
+.accordion__content {
+  margin: 0;
+  padding: 1rem 0 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: var(--grey-4);
+}
+
+.accordion__icon {
+  width: 24px;
+  height: 24px;
+  color: var(--grey-4);
+
+  transition: transform 250ms ease-in-out;
+}
+
+.accordion__item[open] .accordion__icon {
+  transform: rotate(180deg);
+}
+
+/* ONLY IF SUPPORTED */
+
+.accordion__item::details-content {
+  interpolate-size: allow-keywords;
+  block-size: 0;
+  transition: block-size 250ms ease-in-out, content-visibility 250ms ease-in-out;
+  transition-behavior: allow-discrete;
+}
+
+.accordion__item[open]::details-content {
+  block-size: auto;
+}
