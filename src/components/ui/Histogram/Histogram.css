@@ -1,0 +1,100 @@
+.histogram {
+  padding: 1rem 1.5rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+
+  border: 1px solid var(--grey-3);
+  border-radius: var(--border-rad);
+
+  background: var(--white);
+}
+
+.histogram__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.histogram__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.histogram__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  color: var(--black);
+
+  opacity: 0.8;
+}
+
+.histogram__count {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 26px;
+
+  color: var(--black);
+}
+
+.histogram__link {
+  padding-top: 3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.histogram__bars {
+  height: 50px;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+}
+
+.histogram__bar {
+  flex-grow: 1;
+  background: var(--blue);
+
+  animation: barsGrow 1s linear;
+}
+
+.histogram_small {
+  height: 20%;
+}
+
+.histogram_medium {
+  height: 45%;
+}
+
+.histogram_large {
+  height: 75%;
+}
+
+.histogram_full {
+  height: 100%;
+}
+
+@keyframes barsGrow {
+  0% {
+    max-height: 0%;
+  }
+
+  100% {
+    max-height: 100%;
+  }
+}

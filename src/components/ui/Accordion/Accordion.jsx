@@ -10,10 +10,14 @@ export default function Accordion() {
           <Arrow name={"arrow"} className={"accordion__icon"} />
         </summary>
 
-        <p className="accordion__content">
-          Amet consectetur adipisicing elit. Tenetur maxime voluptatem
-          aspernatur.
-        </p>
+        <div className="accordion__content">
+          <p className="accordion__text">
+            Amet consectetur adipisicing elit. Tenetur maxime voluptatem
+            aspernatur, in eius at aperiam doloribus voluptate quis, ex
+            necessitatibus vero vitae? Dignissimos totam distinctio itaque modi,
+            eius nemo.
+          </p>
+        </div>
       </details>
 
       <details className="accordion__item">
@@ -22,11 +26,14 @@ export default function Accordion() {
           <Arrow name={"arrow"} className={"accordion__icon"} />
         </summary>
 
-        <p className="accordion__content">
-          Amet consectetur adipisicing elit. Tenetur maxime voluptatem
-          aspernatur, in eius at aperiam doloribus voluptate quis, ex
-          necessitatibus vero vitae?
-        </p>
+        <div className="accordion__content">
+          <p className="accordion__text">
+            Amet consectetur adipisicing elit. Tenetur maxime voluptatem
+            aspernatur, in eius at aperiam doloribus voluptate quis, ex
+            necessitatibus vero vitae? Dignissimos totam distinctio itaque modi,
+            eius nemo.
+          </p>
+        </div>
       </details>
 
       <details className="accordion__item">
@@ -35,12 +42,14 @@ export default function Accordion() {
           <Arrow name={"arrow"} className={"accordion__icon"} />
         </summary>
 
-        <p className="accordion__content">
-          Amet consectetur adipisicing elit. Tenetur maxime voluptatem
-          aspernatur, in eius at aperiam doloribus voluptate quis, ex
-          necessitatibus vero vitae? Dignissimos totam distinctio itaque modi,
-          eius nemo.
-        </p>
+        <div className="accordion__content">
+          <p className="accordion__text">
+            Amet consectetur adipisicing elit. Tenetur maxime voluptatem
+            aspernatur, in eius at aperiam doloribus voluptate quis, ex
+            necessitatibus vero vitae? Dignissimos totam distinctio itaque modi,
+            eius nemo.
+          </p>
+        </div>
       </details>
     </div>
   );

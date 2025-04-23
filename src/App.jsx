@@ -2,7 +2,7 @@ import Page from "./components/page/Page.jsx";
 import Header from "./components/header/Header.jsx";
 import Main from "./components/main/Main.jsx";
 import Footer from "./components/footer/Footer.jsx";
-import Accordion from "./components/ui/Accordion/Accordion.jsx";
+import Skeleton from "./components/ui/Skeleton/Skeleton.jsx";
 import "./assets/styles/index.css";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Page>
       <Header />
       <Main />
-      <Accordion />
+      <Skeleton />
       <Footer />
     </Page>
   );
