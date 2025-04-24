@@ -1,4 +1,4 @@
-import Arrow from "../Icon/Icon.jsx";
+import Icon from "../Icon/Icon.jsx";
 import "./Accordion.css";
 
 export default function Accordion() {
@@ -7,7 +7,7 @@ export default function Accordion() {
       <details className="accordion__item" open>
         <summary className="accordion__header">
           <span className="accordion__title">Dura lex sed lex</span>
-          <Arrow name={"arrow"} className={"accordion__icon"} />
+          <Icon name={"arrow"} className={"accordion__icon"} />
         </summary>
 
         <div className="accordion__content">
@@ -23,7 +23,7 @@ export default function Accordion() {
       <details className="accordion__item">
         <summary className="accordion__header">
           <span className="accordion__title">Caesar ad Rubiconem</span>
-          <Arrow name={"arrow"} className={"accordion__icon"} />
+          <Icon name={"arrow"} className={"accordion__icon"} />
         </summary>
 
         <div className="accordion__content">
@@ -39,7 +39,7 @@ export default function Accordion() {
       <details className="accordion__item">
         <summary className="accordion__header">
           <span className="accordion__title">Si vis pacem, para bellum</span>
-          <Arrow name={"arrow"} className={"accordion__icon"} />
+          <Icon name={"arrow"} className={"accordion__icon"} />
         </summary>
 
         <div className="accordion__content">

@@ -1,0 +1,56 @@
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: var(--grey-3);
+}
+
+.modal:target {
+  display: block;
+}
+
+.modal__container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 428px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  background: var(--white);
+}
+
+.modal__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: var(--grey-4);
+}
+
+.modal__label {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__close {
+  /* position: absolute;
+  top: 5px;
+  right: 5px; */
+
+  width: 50px;
+  height: 50px;
+  color: var(--black);
+  color: black;
+}
