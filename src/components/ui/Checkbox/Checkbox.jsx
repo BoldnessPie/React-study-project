@@ -1,10 +1,10 @@
 import "./Checkbox.css";
 import Icon from "../Icon/Icon.jsx";
-export default function Checkbox({ legend, disabled, checked }) {
+export default function Checkbox({ legend, disabled, defaultChecked }) {
   return (
     <label className="checkbox">
       <input
-        checked={checked}
+        defaultChecked={defaultChecked}
         disabled={disabled}
         type="checkbox"
         className="checkbox__input"
