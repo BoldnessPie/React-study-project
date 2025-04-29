@@ -10,6 +10,9 @@
 .toggler__state {
   display: flex;
   align-items: center;
+}
+
+.toggler_indent {
   gap: 12px;
 }
 

@@ -1,0 +1,27 @@
+.nav {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__home {
+  text-decoration: none;
+  color: initial;
+}
+
+.nav__logo-icon {
+  width: 110px;
+  height: 32px;
+}
+
+.nav__theme-toggler {
+  display: flex;
+  gap: 12px;
+}
+
+.nav__theme-icon {
+  height: 24px;
+  width: 24px;
+  color: var(--grey-4);
+}

@@ -1,7 +1,10 @@
-export default function Header() {
+import "./Header.css";
+
+export default function Header({ children }) {
   return (
-    <header>
-      <h1>Reusable component library</h1>
+    <header className="header">
+      {children}
+      <h1 className="header__title">Reusable component library</h1>
     </header>
   );
 }
