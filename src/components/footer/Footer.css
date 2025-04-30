@@ -1,0 +1,53 @@
+.footer__inner {
+  padding: 71px 0 136px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  font-family: "Inter";
+  text-align: center;
+
+  color: var(--black);
+  background: var(--white);
+}
+
+.footer__title {
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.footer__content {
+  max-width: 640px;
+  margin: 0;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__template-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--grey-3);
+}
+
+.footer__template-inner {
+  padding: 3.5rem 0;
+  text-align: center;
+
+  background: var(--bg-grey);
+}

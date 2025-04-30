@@ -1,6 +1,7 @@
 .calendar {
   padding: 28px 36px;
   max-width: 300px;
+  width: 100%;
   border: 1px solid var(--grey-2);
   border-radius: var(--border-rad);
 }

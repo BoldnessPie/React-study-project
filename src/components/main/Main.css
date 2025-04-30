@@ -1,0 +1,11 @@
+.main {
+  padding: 67px 0;
+  background: var(--bg-grey);
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+}

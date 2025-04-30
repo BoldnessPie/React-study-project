@@ -1,3 +1,12 @@
+import Container from "../container/Container.jsx";
+import "./Main.css";
+
 export default function Main({ children }) {
-  return <main>{children}</main>;
+  return (
+    <main className="main">
+      <Container>
+        <div className="main__container">{children}</div>
+      </Container>
+    </main>
+  );
 }
