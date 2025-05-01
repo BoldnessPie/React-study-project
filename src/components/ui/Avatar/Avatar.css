@@ -1,5 +1,6 @@
 .avatar {
-  width: 100%;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -8,8 +9,4 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.avatar_preview {
-  width: 200px;
 }

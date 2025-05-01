@@ -50,3 +50,8 @@
 .tooltip__icon:hover ~ .tooltip__help {
   display: block;
 }
+
+/* PREVIEW */
+.tooltip__help_preview {
+  display: block;
+}

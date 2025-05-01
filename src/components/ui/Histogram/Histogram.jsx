@@ -1,6 +1,6 @@
 import "./Histogram.css";
 
-export default function Historgam() {
+export default function Historgam({ className }) {
   return (
     <div className="histogram">
       <div className="histogram__header">
@@ -9,7 +9,7 @@ export default function Historgam() {
           <div className="histogram__count">50254</div>
         </div>
 
-        <a href="#" className="histogram__link">
+        <a href="#" className={`histogram__link ${className}`}>
           View all
         </a>
       </div>

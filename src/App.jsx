@@ -20,7 +20,7 @@ function App() {
       </Header>
       <Main>
         <Card title={"Tooltip"} description={"Atom"}>
-          <Tooltip />
+          <Tooltip className={"tooltip__help_preview"} />
         </Card>
 
         <Card title={"Modal"} description={"Organism"}>
@@ -28,7 +28,7 @@ function App() {
         </Card>
 
         <Card title={"Histogram"} description={"Organism"}>
-          <Histogram />
+          <Histogram className={"histogram_preview"} />
         </Card>
 
         <Card title={"Avatar"} description={"Atom"}>

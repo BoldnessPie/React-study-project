@@ -99,3 +99,8 @@
     max-height: 100%;
   }
 }
+
+/* PREVIEW */
+.histogram_preview {
+  display: none;
+}
