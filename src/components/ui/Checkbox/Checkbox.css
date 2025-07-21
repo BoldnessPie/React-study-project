@@ -67,7 +67,6 @@
   background: grey;
   border-radius: 0.25rem;
   opacity: 0;
-  z-index: -1;
 
   animation: checked 400ms linear;
 }

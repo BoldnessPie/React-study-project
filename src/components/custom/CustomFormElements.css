@@ -1,0 +1,35 @@
+.custom {
+  width: 100%;
+}
+
+.custom__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: column;
+  gap: 2rem;
+}
+
+.custom__input-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* PREVIEW */
+
+.custom_preview .custom__wrap {
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+}
+.custom_preview .custom__wrap > *:nth-child(3) {
+  display: none;
+}
+
+.custom_preview .custom__wrap > *:nth-child(n + 6) {
+  display: none;
+}
+
+.custom_preview .custom__input-wrap {
+  display: none;
+}

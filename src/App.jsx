@@ -6,11 +6,11 @@ import Nav from "./components/nav/Nav.jsx";
 import Card from "./components/card/Card.jsx";
 
 import Tooltip from "./components/ui/Tooltip/Tooltip.jsx";
-import Modal from "./components/ui/Modal/Modal.jsx";
+import ModalPreview from "./components/ui/Modal/ModalPreview.jsx";
 import Histogram from "./components/ui/Histogram/Histogram.jsx";
 import Avatar from "./components/ui/Avatar/Avatar.jsx";
-import Toggler from "./components/ui/Toggler/Toggler.jsx";
 import Calendar from "./components/ui/Calendar/Calendar.jsx";
+import CustomFormElements from "./components/custom/CustomFormElements.jsx";
 
 function App() {
   return (
@@ -18,17 +18,18 @@ function App() {
       <Header>
         <Nav />
       </Header>
+
       <Main>
         <Card title={"Tooltip"} description={"Atom"}>
           <Tooltip className={"tooltip__help_preview"} />
         </Card>
 
         <Card title={"Modal"} description={"Organism"}>
-          <Modal />
+          <ModalPreview />
         </Card>
 
         <Card title={"Histogram"} description={"Organism"}>
-          <Histogram className={"histogram_preview"} />
+          <Histogram previewMode={true} />
         </Card>
 
         <Card title={"Avatar"} description={"Atom"}>
@@ -39,13 +40,14 @@ function App() {
         </Card>
 
         <Card title={"Custom form elements"} description={"Molecule"}>
-          <Toggler />
+          <CustomFormElements className={"custom_preview"} />
         </Card>
 
         <Card title={"Calendar"} description={"Molecule"}>
-          <Calendar />
+          <Calendar className={"calendar_preview"} />
         </Card>
       </Main>
+
       <Footer />
     </>
   );

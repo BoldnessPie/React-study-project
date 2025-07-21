@@ -1,4 +1,5 @@
 .calendar {
+  box-sizing: border-box;
   padding: 28px 36px;
   max-width: 300px;
   width: 100%;
@@ -68,4 +69,23 @@
 
 .calendar__day_between {
   background: #4264eb1f;
+}
+
+/* PREVIEW */
+
+.calendar_preview {
+  max-width: 200px;
+  padding: 5%;
+}
+
+.calendar_preview .calendar__title {
+  font-size: 14px;
+  padding-bottom: 12px;
+}
+
+.calendar_preview .calendar__week-day {
+  font-size: 9px;
+}
+.calendar_preview .calendar__day {
+  font-size: 9px;
 }

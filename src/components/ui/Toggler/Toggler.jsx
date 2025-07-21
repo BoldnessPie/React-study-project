@@ -13,7 +13,7 @@ export default function Toggler({ legend, defaultChecked, disabled }) {
         <div className="toggler__control">
           <div className="toggler__icon"></div>
         </div>
-        <div className="toggler_legend">{legend}</div>
+        <div className="toggler__legend">{legend}</div>
       </div>
     </label>
   );

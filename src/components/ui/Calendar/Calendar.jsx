@@ -1,8 +1,8 @@
 import "./Calendar.css";
 
-export default function Calendar() {
+export default function Calendar({ className }) {
   return (
-    <div className="calendar">
+    <div className={`calendar ${className}`}>
       <div className="calendar__title">October 2019</div>
       <div className="calendar__wrapper">
         <div className="calendar__inner">
